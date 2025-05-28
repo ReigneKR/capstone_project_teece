@@ -9,7 +9,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Female,4.3,Yes,77.7,4.6,Fair,0,Bachelor,Average,8,No,72.6,3.0
 23,Female,4.4,No,100.0,7.1,Good,3,Bachelor,Good,1,No,78.9,3.9000000000000004
 18,Female,4.8,No,95.4,7.5,Good,5,Bachelor,Good,10,Yes,100.0,4.4
-19,Female,4.6,No,77.6,5.8,Fair,1,,Good,3,No,63.3,4.5
+19,Female,4.6,No,77.6,5.8,Fair,1,No education,Good,3,No,63.3,4.5
 23,Male,3.9,No,71.7,7.9,Fair,2,Bachelor,Average,1,No,74.4,4.9
 19,Female,3.7,Yes,81.1,4.5,Fair,1,Bachelor,Good,9,No,76.9,2.5
 19,Female,3.4,No,89.3,4.7,Fair,4,Bachelor,Good,10,No,75.8,5.4
@@ -32,7 +32,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Female,3.7,No,75.6,7.5,Fair,2,Master,Average,5,No,70.6,1.9
 17,Other,1.5,Yes,96.2,8.0,Fair,4,Bachelor,Average,3,Yes,51.3,5.7
 20,Other,2.6,No,82.1,6.9,Good,3,Bachelor,Good,7,No,52.1,9.2
-18,Female,4.0,No,99.5,5.8,Poor,2,,Average,5,No,70.7,2.0
+18,Female,4.0,No,99.5,5.8,Poor,2,No education,Average,5,No,70.7,2.0
 22,Female,1.1,No,100.0,7.7,Fair,1,High School,Good,4,No,51.2,2.8000000000000003
 21,Female,4.2,Yes,84.2,6.5,Good,1,Bachelor,Average,3,No,72.6,1.7
 20,Female,3.5,No,74.9,7.3,Fair,3,High School,Good,4,No,70.7,5.6
@@ -46,7 +46,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Female,3.6,No,73.0,5.3,Good,4,High School,Poor,9,No,78.5,2.2
 20,Male,3.6,No,93.9,8.4,Fair,1,Bachelor,Average,5,Yes,75.1,4.2
 24,Male,2.4,No,87.9,8.9,Poor,5,High School,Average,9,Yes,71.0,5.3
-23,Female,2.5,No,83.5,7.0,Good,4,,Good,8,Yes,59.7,5.6
+23,Female,2.5,No,83.5,7.0,Good,4,No education,Good,8,Yes,59.7,5.6
 22,Female,1.4,No,90.6,8.4,Fair,3,Bachelor,Good,6,No,52.6,4.9
 22,Female,6.1,No,100.0,5.8,Poor,5,High School,Average,1,No,96.5,4.8
 23,Female,1.6,No,82.8,5.5,Fair,4,Master,Good,10,Yes,62.0,4.1
@@ -73,7 +73,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 18,Female,1.4,No,89.9,4.6,Fair,0,High School,Poor,10,Yes,55.1,3.4
 17,Male,3.4,No,77.7,7.9,Fair,1,High School,Average,4,Yes,77.1,0.7
 18,Female,7.4,No,83.6,5.5,Fair,3,High School,Average,7,Yes,97.7,7.5
-21,Female,2.3,No,100.0,6.4,Fair,6,,Good,1,No,66.9,1.4
+21,Female,2.3,No,100.0,6.4,Fair,6,No education,Good,1,No,66.9,1.4
 18,Female,6.0,Yes,92.3,7.0,Fair,0,Bachelor,Good,9,Yes,99.9,5.4
 20,Male,6.0,No,85.1,6.7,Poor,5,Bachelor,Average,10,Yes,100.0,5.4
 20,Female,2.7,No,82.6,7.8,Fair,1,Bachelor,Poor,1,No,57.2,1.7999999999999998
@@ -92,21 +92,21 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,4.0,No,74.7,7.8,Fair,6,Bachelor,Good,1,No,77.8,4.8
 20,Female,4.8,No,80.6,4.7,Fair,5,High School,Average,2,No,63.4,6.4
 18,Male,0.5,Yes,97.9,4.1,Poor,4,High School,Good,3,No,43.9,3.3
-22,Male,4.1,No,85.1,5.8,Good,4,,Good,5,No,70.2,5.5
+22,Male,4.1,No,85.1,5.8,Good,4,No education,Good,5,No,70.2,5.5
 22,Female,5.3,No,72.6,4.5,Fair,0,High School,Average,8,No,81.3,3.2
 22,Male,1.7,No,97.5,6.0,Good,0,High School,Good,6,No,50.2,4.9
 18,Female,6.0,No,92.3,7.1,Good,0,High School,Good,3,No,87.9,4.4
 20,Male,4.1,No,90.4,5.4,Good,5,Bachelor,Average,6,No,80.9,3.0
 22,Male,2.4,No,92.2,4.8,Good,3,Bachelor,Good,7,Yes,63.9,3.1
 21,Male,3.4,No,100.0,6.6,Good,1,High School,Good,6,No,65.6,6.1
-23,Male,4.3,No,100.0,7.5,Good,5,,Average,10,Yes,93.2,4.5
+23,Male,4.3,No,100.0,7.5,Good,5,No education,Average,10,Yes,93.2,4.5
 18,Male,3.6,No,78.1,4.5,Good,6,Bachelor,Average,6,No,74.0,4.9
-18,Male,4.3,No,100.0,7.5,Fair,0,,Average,1,No,60.8,4.8
+18,Male,4.3,No,100.0,7.5,Fair,0,No education,Average,1,No,60.8,4.8
 20,Male,2.1,No,88.8,7.5,Good,4,Master,Average,3,No,50.4,4.3
 18,Male,3.8,No,90.0,7.6,Good,5,Bachelor,Good,7,No,74.3,5.8
 18,Male,1.4,Yes,68.1,8.0,Good,4,High School,Average,4,Yes,32.8,7.8
 22,Male,3.3,No,83.3,9.1,Good,6,High School,Good,4,Yes,82.3,1.2000000000000002
-20,Male,2.1,No,76.9,6.1,Fair,4,,Average,7,No,60.4,4.3
+20,Male,2.1,No,76.9,6.1,Fair,4,No education,Average,7,No,60.4,4.3
 22,Female,2.4,No,93.3,6.6,Poor,4,High School,Average,9,Yes,60.0,4.0
 23,Female,5.4,No,95.7,6.0,Fair,2,High School,Good,2,No,77.5,4.9
 24,Male,5.1,No,64.3,6.5,Fair,3,Bachelor,Average,9,Yes,86.5,4.5
@@ -114,9 +114,9 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,1.9,No,96.2,4.9,Fair,1,Bachelor,Poor,6,Yes,43.9,4.5
 22,Male,3.0,No,83.1,5.5,Fair,0,Bachelor,Average,4,No,51.3,5.1
 23,Female,5.3,No,92.3,8.2,Fair,2,High School,Average,1,No,83.3,2.0
-20,Female,3.7,No,88.5,7.7,Poor,5,,Good,9,No,82.7,4.5
-17,Male,7.0,No,88.4,6.1,Good,5,,Average,6,Yes,94.8,6.4
-22,Male,4.1,No,82.3,7.5,Good,1,,Good,8,No,80.8,3.0
+20,Female,3.7,No,88.5,7.7,Poor,5,No education,Good,9,No,82.7,4.5
+17,Male,7.0,No,88.4,6.1,Good,5,No education,Average,6,Yes,94.8,6.4
+22,Male,4.1,No,82.3,7.5,Good,1,No education,Good,8,No,80.8,3.0
 24,Female,3.8,No,72.8,6.9,Poor,3,Bachelor,Good,2,Yes,58.3,5.199999999999999
 21,Female,3.0,Yes,73.8,8.3,Fair,4,High School,Average,7,No,66.3,5.5
 24,Male,3.7,No,92.1,6.6,Fair,6,Bachelor,Average,6,No,87.9,1.3
@@ -142,17 +142,17 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,2.5,No,85.4,5.0,Good,6,High School,Good,8,No,63.4,6.0
 17,Male,5.0,No,95.4,5.4,Good,6,Bachelor,Good,7,No,96.2,2.1
 20,Male,3.2,No,88.3,4.9,Fair,4,Bachelor,Poor,4,Yes,65.4,4.0
-24,Male,2.4,No,99.8,8.1,Fair,3,,Good,2,No,62.0,3.5
+24,Male,2.4,No,99.8,8.1,Fair,3,No education,Good,2,No,62.0,3.5
 24,Male,4.3,No,75.1,8.4,Fair,5,Master,Good,9,Yes,74.0,7.9
-23,Female,2.2,No,86.4,6.9,Good,1,,Good,4,No,46.7,9.2
+23,Female,2.2,No,86.4,6.9,Good,1,No education,Good,4,No,46.7,9.2
 19,Female,3.5,No,85.8,8.0,Poor,2,Bachelor,Good,9,No,75.5,5.6
 19,Female,3.5,No,74.3,6.7,Fair,3,Bachelor,Poor,5,Yes,78.1,4.5
 17,Female,5.1,No,94.6,6.4,Fair,1,Master,Good,7,No,85.2,6.800000000000001
-24,Female,4.2,Yes,100.0,6.1,Fair,3,,Poor,5,No,75.4,5.4
+24,Female,4.2,Yes,100.0,6.1,Fair,3,No education,Poor,5,No,75.4,5.4
 19,Male,3.5,Yes,84.8,6.1,Good,4,Bachelor,Average,2,No,64.2,2.6
 19,Female,4.7,No,90.1,4.6,Good,1,High School,Good,6,No,69.7,7.0
 17,Female,5.6,No,85.8,6.8,Good,4,High School,Good,7,No,90.3,6.8999999999999995
-19,Female,4.3,No,77.9,6.5,Good,0,,Average,6,No,81.4,3.8
+19,Female,4.3,No,77.9,6.5,Good,0,No education,Average,6,No,81.4,3.8
 21,Male,3.5,No,66.8,7.4,Fair,1,Bachelor,Good,3,No,65.0,4.699999999999999
 18,Male,1.5,No,77.9,6.6,Fair,3,High School,Good,10,No,57.3,5.3
 23,Male,1.9,Yes,71.1,6.3,Fair,0,High School,Good,8,No,57.7,5.2
@@ -177,9 +177,9 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Other,3.0,No,100.0,5.0,Good,3,Master,Good,7,No,65.3,3.5
 19,Male,2.6,No,84.6,7.1,Good,6,High School,Average,5,Yes,77.5,3.4
 19,Male,3.0,No,71.0,5.5,Fair,0,Master,Average,7,Yes,55.0,4.2
-17,Other,2.9,Yes,83.7,6.3,Poor,5,,Good,9,No,65.2,4.9
+17,Other,2.9,Yes,83.7,6.3,Poor,5,No education,Good,9,No,65.2,4.9
 19,Female,3.8,No,90.2,5.3,Good,2,High School,Average,4,No,58.1,5.5
-21,Female,3.7,Yes,100.0,7.5,Fair,5,,Good,5,No,69.2,5.9
+21,Female,3.7,Yes,100.0,7.5,Fair,5,No education,Good,5,No,69.2,5.9
 23,Male,3.5,Yes,79.1,5.5,Good,0,Bachelor,Average,9,No,67.4,4.5
 22,Male,4.2,No,69.2,7.2,Good,1,Master,Poor,10,No,79.9,3.8
 19,Female,5.3,No,93.2,6.1,Fair,1,High School,Average,4,Yes,85.7,5.1
@@ -201,7 +201,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 19,Female,3.8,No,85.5,5.1,Fair,2,Bachelor,Good,4,No,61.6,3.7
 23,Female,3.5,No,89.8,7.8,Fair,2,Bachelor,Good,7,No,81.9,1.8
 24,Male,4.4,No,92.3,5.8,Fair,3,High School,Good,8,No,96.5,0.9
-23,Male,3.7,No,78.1,6.6,Fair,1,,Average,9,No,85.1,0.7
+23,Male,3.7,No,78.1,6.6,Fair,1,No education,Average,9,No,85.1,0.7
 17,Male,2.0,No,78.4,7.6,Fair,6,Master,Poor,5,No,58.5,4.1
 20,Male,5.3,No,79.3,5.9,Fair,0,Bachelor,Good,3,Yes,78.4,2.7
 21,Other,3.3,No,90.4,6.4,Fair,0,High School,Good,4,No,56.4,8.2
@@ -213,7 +213,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 23,Female,6.1,No,82.9,6.1,Good,6,Bachelor,Good,3,Yes,98.3,2.3
 21,Male,1.4,No,92.5,4.7,Poor,1,Bachelor,Average,2,Yes,29.7,6.1
 23,Male,1.1,No,88.3,6.8,Good,6,Bachelor,Poor,6,No,45.5,6.9
-19,Male,5.7,No,100.0,8.8,Fair,3,,Average,7,No,100.0,3.8
+19,Male,5.7,No,100.0,8.8,Fair,3,No education,Average,7,No,100.0,3.8
 21,Female,3.2,No,76.5,5.4,Good,6,High School,Good,5,Yes,67.5,4.9
 20,Female,2.5,No,90.2,5.6,Fair,6,High School,Average,1,Yes,60.3,3.6
 21,Other,5.1,No,79.7,5.5,Fair,6,High School,Good,3,No,87.0,1.6
@@ -260,7 +260,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,5.8,No,66.5,3.2,Fair,2,High School,Average,8,No,90.8,3.4
 19,Female,4.3,No,80.7,6.3,Fair,4,Master,Good,1,No,72.6,2.1
 17,Male,4.3,No,95.3,4.8,Fair,1,High School,Average,8,No,70.9,4.9
-22,Male,5.1,Yes,81.6,5.9,Fair,0,,Poor,3,Yes,65.1,5.6
+22,Male,5.1,Yes,81.6,5.9,Fair,0,No education,Poor,3,Yes,65.1,5.6
 21,Male,3.0,No,76.5,6.1,Poor,2,Master,Average,3,No,49.1,4.5
 17,Female,2.2,Yes,94.3,6.1,Poor,5,Bachelor,Average,6,No,62.7,4.699999999999999
 19,Male,1.9,No,81.7,5.8,Good,1,Master,Poor,4,No,51.5,0.7
@@ -276,20 +276,20 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 17,Female,3.2,No,86.1,7.7,Fair,4,High School,Average,4,Yes,58.6,7.1
 20,Male,3.9,No,74.2,6.7,Fair,5,Bachelor,Average,6,No,77.8,4.9
 17,Male,3.1,Yes,83.2,5.9,Fair,4,High School,Good,4,Yes,61.5,4.699999999999999
-22,Female,5.9,No,89.0,4.9,Good,1,,Good,3,No,71.4,3.9
+22,Female,5.9,No,89.0,4.9,Good,1,No education,Good,3,No,71.4,3.9
 17,Female,4.2,No,88.6,5.4,Fair,2,Master,Good,8,Yes,93.9,2.4
 18,Female,4.6,No,90.0,4.5,Poor,1,High School,Good,8,No,85.9,2.7
 20,Female,4.5,No,87.9,6.5,Fair,2,Bachelor,Good,6,No,73.8,6.6
 20,Female,5.3,Yes,79.9,5.1,Good,2,High School,Average,9,No,83.3,5.300000000000001
-22,Male,3.8,Yes,79.9,6.2,Fair,1,,Good,10,No,79.7,2.9
+22,Male,3.8,Yes,79.9,6.2,Fair,1,No education,Good,10,No,79.7,2.9
 23,Male,1.6,Yes,73.0,8.1,Good,6,High School,Good,1,No,47.1,6.8
 18,Male,4.1,No,100.0,7.9,Fair,6,Bachelor,Good,8,No,91.9,4.5
-19,Female,2.5,Yes,85.1,6.5,Poor,0,,Poor,6,Yes,60.6,3.3
+19,Female,2.5,Yes,85.1,6.5,Poor,0,No education,Poor,6,Yes,60.6,3.3
 17,Female,2.7,No,82.8,6.4,Fair,4,Master,Average,1,No,46.6,4.6
 21,Male,4.4,No,75.7,8.8,Good,6,High School,Poor,4,Yes,84.2,3.1
 17,Male,5.4,No,100.0,7.1,Fair,3,High School,Average,5,No,95.5,3.0
 24,Female,3.5,No,74.3,6.1,Good,1,High School,Good,7,Yes,73.5,3.0
-17,Male,4.0,No,80.7,4.8,Fair,2,,Poor,8,No,75.9,2.7
+17,Male,4.0,No,80.7,4.8,Fair,2,No education,Poor,8,No,75.9,2.7
 19,Female,6.1,No,89.2,7.0,Poor,1,Bachelor,Average,9,No,100.0,1.9
 17,Female,3.9,Yes,91.0,7.5,Good,4,Master,Average,6,Yes,74.2,4.1
 18,Female,7.4,No,94.6,5.7,Fair,5,Bachelor,Good,10,Yes,100.0,2.8
@@ -302,11 +302,11 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 17,Female,3.3,No,71.0,5.7,Poor,6,High School,Good,4,Yes,61.6,6.300000000000001
 17,Male,1.7,Yes,97.0,6.6,Good,3,High School,Average,6,No,41.7,7.3
 19,Female,3.2,No,86.8,5.6,Fair,5,High School,Poor,9,No,74.5,5.1
-22,Female,2.2,No,93.4,6.9,Good,6,,Good,6,No,63.7,3.9
+22,Female,2.2,No,93.4,6.9,Good,6,No education,Good,6,No,63.7,3.9
 18,Male,2.6,No,84.0,6.2,Good,0,Bachelor,Average,1,No,39.6,5.5
 21,Female,4.4,No,76.6,5.4,Fair,2,High School,Good,5,Yes,87.5,3.9
 20,Female,6.0,No,92.5,8.1,Fair,5,Bachelor,Average,9,No,100.0,2.9000000000000004
-18,Female,4.1,Yes,91.5,7.6,Fair,2,,Good,5,No,75.4,4.4
+18,Female,4.1,Yes,91.5,7.6,Fair,2,No education,Good,5,No,75.4,4.4
 24,Male,1.7,No,94.7,5.8,Fair,6,Master,Good,6,Yes,61.5,4.6
 22,Male,4.2,No,84.9,7.1,Fair,5,High School,Good,3,Yes,73.3,3.8000000000000003
 24,Other,5.3,No,79.0,7.1,Good,6,Master,Average,8,No,96.3,5.5
@@ -319,7 +319,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 17,Male,4.1,No,70.2,6.9,Good,1,High School,Average,8,Yes,80.4,4.2
 23,Male,2.2,No,76.8,6.0,Fair,6,High School,Poor,7,No,64.1,4.0
 22,Male,2.8,No,73.7,3.9,Good,4,Master,Average,5,Yes,59.4,6.6
-24,Female,4.6,No,80.9,8.2,Fair,5,,Poor,9,Yes,94.2,3.3
+24,Female,4.6,No,80.9,8.2,Fair,5,No education,Poor,9,Yes,94.2,3.3
 21,Male,2.9,Yes,77.6,4.9,Good,3,Bachelor,Good,9,Yes,67.8,4.6
 20,Male,6.1,No,68.7,5.3,Good,0,Bachelor,Good,10,No,96.1,6.300000000000001
 18,Male,2.9,No,100.0,6.1,Good,0,Bachelor,Good,10,No,70.2,3.3
@@ -330,10 +330,10 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,1.2,Yes,96.9,5.8,Good,4,Master,Good,5,No,50.3,3.3
 24,Male,5.4,No,76.8,6.7,Fair,4,Bachelor,Average,8,No,100.0,0.2
 17,Male,2.7,No,95.9,6.6,Good,6,Master,Average,2,No,52.2,3.9
-17,Male,7.3,No,79.5,7.7,Fair,6,,Average,2,Yes,100.0,3.3
+17,Male,7.3,No,79.5,7.7,Fair,6,No education,Average,2,Yes,100.0,3.3
 20,Male,2.7,No,71.6,7.7,Fair,3,High School,Poor,8,No,71.2,4.199999999999999
 19,Male,3.8,No,92.2,7.1,Good,1,High School,Good,10,No,72.3,5.4
-22,Female,5.8,No,97.9,6.1,Fair,4,,Average,9,No,100.0,3.4
+22,Female,5.8,No,97.9,6.1,Fair,4,No education,Average,9,No,100.0,3.4
 24,Male,6.5,No,100.0,7.4,Poor,5,High School,Average,7,Yes,100.0,7.4
 21,Female,6.6,No,73.0,6.4,Good,2,Bachelor,Poor,8,Yes,100.0,4.9
 19,Male,5.3,No,92.0,5.2,Fair,2,High School,Good,5,No,93.1,3.9000000000000004
@@ -364,7 +364,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 17,Female,3.2,No,92.0,6.1,Fair,5,Master,Poor,5,No,67.9,3.5999999999999996
 18,Male,2.1,No,87.8,5.8,Fair,5,Master,Poor,4,No,56.9,5.7
 23,Male,2.9,No,82.9,6.2,Fair,1,High School,Average,2,No,45.9,4.8
-23,Female,5.1,Yes,81.9,4.8,Good,1,,Poor,3,No,76.0,3.6
+23,Female,5.1,Yes,81.9,4.8,Good,1,No education,Poor,3,No,76.0,3.6
 22,Male,6.3,No,93.6,7.7,Poor,2,High School,Average,6,Yes,94.8,4.6
 18,Male,5.8,No,90.5,7.9,Poor,6,Bachelor,Good,8,No,99.3,7.3
 19,Female,2.8,Yes,82.4,4.2,Fair,3,Bachelor,Good,8,No,71.0,5.0
@@ -375,7 +375,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,3.3,No,75.2,6.5,Poor,0,Bachelor,Good,7,Yes,72.9,1.7999999999999998
 17,Male,2.8,Yes,82.3,6.3,Fair,4,High School,Good,6,No,57.3,6.1
 20,Male,1.1,Yes,97.3,8.0,Fair,6,Bachelor,Average,1,Yes,50.3,5.7
-20,Female,4.3,No,76.9,5.0,Poor,3,,Good,4,No,65.7,6.2
+20,Female,4.3,No,76.9,5.0,Poor,3,No education,Good,4,No,65.7,6.2
 17,Female,2.7,No,86.9,7.2,Good,2,High School,Poor,6,Yes,67.9,4.5
 18,Male,1.7,No,78.4,7.8,Good,6,Bachelor,Good,6,No,63.6,2.7
 17,Male,0.0,No,82.4,7.4,Good,5,High School,Average,3,No,32.9,4.2
@@ -390,7 +390,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 17,Male,4.6,No,87.0,5.9,Good,3,High School,Average,4,Yes,73.2,4.3
 17,Male,5.3,No,84.9,4.8,Poor,2,High School,Average,8,No,79.6,6.8
 19,Female,3.3,Yes,79.8,5.9,Good,2,High School,Good,10,No,73.0,1.7999999999999998
-19,Female,3.2,Yes,87.2,7.2,Good,4,,Average,3,No,72.6,0.30000000000000004
+19,Female,3.2,Yes,87.2,7.2,Good,4,No education,Average,3,No,72.6,0.30000000000000004
 24,Female,2.2,No,89.8,8.2,Good,0,High School,Poor,3,No,45.2,6.9
 24,Male,2.3,No,67.5,6.6,Fair,3,Bachelor,Average,9,No,51.8,7.6
 19,Female,3.2,No,79.6,8.1,Good,5,Bachelor,Good,10,No,92.0,1.5
@@ -400,9 +400,9 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,5.7,No,77.3,6.4,Good,0,Master,Good,2,Yes,69.1,4.6
 17,Male,3.1,No,80.0,6.6,Poor,3,Bachelor,Good,3,Yes,59.6,4.0
 24,Male,3.5,No,79.9,7.3,Fair,0,Bachelor,Good,2,No,60.4,3.4000000000000004
-20,Male,2.4,No,77.0,6.0,Good,2,,Good,3,Yes,48.3,3.6
+20,Male,2.4,No,77.0,6.0,Good,2,No education,Good,3,Yes,48.3,3.6
 19,Male,0.0,No,81.5,6.7,Good,5,High School,Good,8,Yes,50.1,1.4
-17,Female,4.8,No,92.7,6.4,Fair,1,,Good,6,No,74.9,5.9
+17,Female,4.8,No,92.7,6.4,Fair,1,No education,Good,6,No,74.9,5.9
 24,Male,4.6,Yes,74.5,5.4,Good,6,Bachelor,Average,7,Yes,85.6,4.3
 20,Female,3.1,No,89.3,6.4,Good,2,High School,Good,10,Yes,65.4,3.9
 22,Female,3.6,No,68.0,6.3,Poor,2,Bachelor,Good,10,Yes,82.4,3.4000000000000004
@@ -414,13 +414,13 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Female,3.9,No,65.0,5.1,Good,2,High School,Average,9,No,73.7,4.300000000000001
 17,Male,1.5,Yes,85.3,5.6,Poor,3,High School,Average,9,No,60.3,4.4
 19,Female,4.2,No,91.1,9.8,Poor,0,Bachelor,Poor,5,Yes,78.7,6.0
-17,Male,3.4,Yes,88.8,5.3,Fair,4,,Average,4,Yes,68.3,3.3
+17,Male,3.4,Yes,88.8,5.3,Fair,4,No education,Average,4,Yes,68.3,3.3
 21,Male,1.1,No,86.7,4.9,Fair,3,High School,Average,9,No,49.9,5.2
 18,Female,5.2,No,96.6,7.4,Fair,2,Bachelor,Average,9,Yes,100.0,4.800000000000001
-24,Female,2.4,No,79.6,4.0,Good,4,,Average,3,Yes,54.7,3.6999999999999997
+24,Female,2.4,No,79.6,4.0,Good,4,No education,Average,3,Yes,54.7,3.6999999999999997
 22,Male,2.3,No,93.9,6.2,Good,6,Master,Good,5,No,58.7,5.199999999999999
 18,Female,3.8,Yes,68.7,9.1,Fair,4,Master,Good,3,No,70.8,7.0
-18,Female,5.2,No,76.0,4.6,Good,3,,Poor,10,Yes,87.1,6.3
+18,Female,5.2,No,76.0,4.6,Good,3,No education,Poor,10,Yes,87.1,6.3
 22,Female,2.0,No,66.9,4.1,Fair,3,High School,Good,2,Yes,29.5,6.3
 19,Female,3.6,No,82.3,4.7,Good,1,High School,Poor,1,No,53.2,4.5
 24,Male,4.1,Yes,84.5,7.6,Fair,1,Bachelor,Poor,10,No,73.0,5.699999999999999
@@ -436,12 +436,12 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Male,0.0,No,72.6,6.2,Fair,3,High School,Good,2,No,26.2,6.7
 24,Male,2.0,No,73.7,6.3,Good,6,High School,Average,3,Yes,58.3,3.1
 24,Male,4.4,No,74.0,7.8,Good,4,High School,Good,2,Yes,78.4,2.5
-24,Female,6.6,No,84.3,8.0,Good,1,,Good,8,No,100.0,5.699999999999999
+24,Female,6.6,No,84.3,8.0,Good,1,No education,Good,8,No,100.0,5.699999999999999
 23,Male,3.5,No,89.3,6.3,Fair,2,Master,Average,5,Yes,66.8,6.1
 19,Female,2.4,No,92.4,7.8,Good,6,High School,Good,3,No,63.8,3.4
 17,Male,3.2,No,100.0,6.9,Fair,4,Bachelor,Good,5,No,76.1,1.1
 24,Female,5.6,No,62.5,6.6,Fair,4,Bachelor,Average,8,No,82.7,4.2
-17,Female,2.5,No,91.1,7.6,Poor,5,,Average,7,No,65.0,5.8
+17,Female,2.5,No,91.1,7.6,Poor,5,No education,Average,7,No,65.0,5.8
 24,Female,2.3,Yes,79.4,6.6,Fair,3,Master,Good,6,No,66.8,2.9000000000000004
 20,Male,2.8,No,79.1,9.0,Poor,4,Master,Average,1,Yes,64.9,4.5
 19,Male,2.1,No,78.8,4.8,Good,3,Bachelor,Poor,10,No,63.1,3.1999999999999997
@@ -464,7 +464,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Male,4.9,Yes,66.1,7.6,Poor,3,Bachelor,Good,4,No,80.9,2.6
 17,Male,2.5,Yes,88.1,4.8,Fair,1,Master,Good,1,No,44.5,6.1
 20,Male,6.3,Yes,73.1,6.9,Fair,2,Master,Average,5,No,85.3,6.9
-23,Male,5.1,No,81.0,5.5,Fair,6,,Good,4,No,83.2,2.3
+23,Male,5.1,No,81.0,5.5,Fair,6,No education,Good,4,No,83.2,2.3
 24,Female,2.8,No,90.3,6.1,Good,2,Bachelor,Average,10,No,59.7,5.1000000000000005
 17,Male,5.4,No,85.9,7.1,Fair,6,High School,Good,8,No,98.1,5.9
 21,Female,3.6,No,76.5,7.1,Good,0,Bachelor,Good,2,Yes,66.8,2.1
@@ -479,13 +479,13 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,4.1,No,93.8,6.9,Poor,5,High School,Poor,8,No,84.0,5.800000000000001
 17,Female,6.6,No,77.9,6.9,Good,5,High School,Good,3,Yes,97.7,3.0
 20,Female,1.9,No,91.4,5.7,Good,5,Bachelor,Good,4,No,43.3,5.3
-20,Male,3.5,Yes,81.2,5.0,Good,5,,Good,1,No,55.9,6.0
+20,Male,3.5,Yes,81.2,5.0,Good,5,No education,Good,1,No,55.9,6.0
 22,Female,5.6,No,65.2,8.3,Good,0,Master,Poor,7,No,84.6,3.8000000000000003
-21,Male,3.4,No,79.3,7.1,Fair,1,,Poor,1,No,67.0,2.2
+21,Male,3.4,No,79.3,7.1,Fair,1,No education,Poor,1,No,67.0,2.2
 22,Male,4.2,No,73.2,6.2,Fair,3,Bachelor,Poor,2,No,76.0,3.5
 21,Female,1.9,No,85.3,5.1,Fair,2,Bachelor,Good,7,Yes,56.9,2.1
 22,Female,4.1,No,73.1,5.5,Fair,5,High School,Good,1,No,77.5,2.2
-19,Female,3.2,No,94.3,8.1,Fair,0,,Good,3,No,69.4,4.2
+19,Female,3.2,No,94.3,8.1,Fair,0,No education,Good,3,No,69.4,4.2
 20,Male,5.0,No,84.1,6.7,Fair,6,Bachelor,Average,6,Yes,94.6,2.8
 17,Male,5.3,Yes,83.2,5.8,Good,3,Bachelor,Average,6,Yes,93.4,5.2
 21,Female,7.4,No,91.6,7.1,Good,3,High School,Good,6,Yes,100.0,4.9
@@ -496,22 +496,22 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Male,4.0,No,78.1,5.7,Fair,3,High School,Good,5,No,66.5,3.7
 23,Male,3.1,No,78.8,3.4,Fair,0,Master,Good,7,No,49.9,5.7
 19,Female,3.8,No,86.1,4.7,Good,6,High School,Average,7,No,73.9,3.0
-20,Male,5.5,No,81.5,4.9,Fair,1,,Average,5,No,80.3,3.6
+20,Male,5.5,No,81.5,4.9,Fair,1,No education,Average,5,No,80.3,3.6
 17,Female,2.0,No,91.9,6.7,Good,6,High School,Average,8,No,71.7,4.7
 20,Male,5.2,Yes,78.9,6.1,Poor,0,Bachelor,Poor,10,No,83.3,7.4
 23,Male,5.5,No,84.4,4.9,Fair,0,Bachelor,Good,6,No,84.5,2.5
 21,Female,3.3,No,96.8,6.2,Good,0,Bachelor,Poor,5,No,74.9,2.4
-21,Female,0.3,No,88.4,7.1,Poor,3,,Average,4,Yes,34.0,5.4
+21,Female,0.3,No,88.4,7.1,Poor,3,No education,Average,4,Yes,34.0,5.4
 24,Female,2.6,Yes,84.4,7.1,Fair,0,High School,Average,7,No,63.0,3.5
 23,Female,5.4,No,79.0,4.2,Fair,1,Bachelor,Good,4,No,77.9,6.2
-17,Female,3.5,No,78.7,6.3,Fair,3,,Average,5,Yes,72.9,1.3
+17,Female,3.5,No,78.7,6.3,Fair,3,No education,Average,5,Yes,72.9,1.3
 24,Female,2.0,No,76.5,4.8,Good,6,Master,Good,5,No,53.2,6.1
-19,Female,2.7,No,79.6,7.6,Fair,1,,Poor,1,No,57.3,3.4
+19,Female,2.7,No,79.6,7.6,Fair,1,No education,Poor,1,No,57.3,3.4
 24,Male,4.8,No,92.6,7.4,Fair,4,Bachelor,Poor,1,Yes,76.6,4.800000000000001
 18,Female,4.3,No,82.8,5.4,Poor,6,High School,Average,3,No,64.6,5.5
 17,Male,3.1,Yes,71.5,5.6,Good,0,Bachelor,Average,3,Yes,51.1,4.6
 18,Other,2.9,No,100.0,5.9,Fair,5,High School,Average,2,No,63.0,6.0
-23,Female,2.9,No,88.2,3.8,Good,5,,Poor,2,Yes,61.6,3.3
+23,Female,2.9,No,88.2,3.8,Good,5,No education,Poor,2,Yes,61.6,3.3
 22,Male,2.1,Yes,70.9,6.9,Good,3,High School,Good,6,No,62.5,4.6
 18,Female,5.9,No,80.6,6.2,Fair,5,High School,Good,1,Yes,87.1,3.0
 19,Female,3.0,No,86.1,7.7,Good,6,High School,Poor,6,Yes,82.5,2.0
@@ -525,12 +525,12 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 23,Other,4.0,No,83.0,6.6,Good,5,High School,Average,1,No,61.7,6.6
 18,Female,1.7,No,84.6,6.0,Good,0,Bachelor,Average,7,Yes,39.9,5.4
 23,Male,5.3,No,91.6,5.0,Good,4,High School,Poor,4,No,84.1,3.8
-19,Female,2.8,No,95.9,6.3,Fair,2,,Good,3,No,40.7,7.6
+19,Female,2.8,No,95.9,6.3,Fair,2,No education,Good,3,No,40.7,7.6
 18,Female,3.8,No,77.5,7.2,Good,5,Bachelor,Good,10,No,81.8,2.8
 18,Male,3.9,No,65.3,5.1,Fair,6,High School,Average,9,Yes,77.0,6.6
 18,Female,3.1,No,84.8,7.5,Fair,6,Master,Good,1,No,65.7,4.800000000000001
 17,Male,4.4,No,87.9,5.5,Good,2,Master,Good,8,Yes,80.9,3.7
-24,Female,2.8,No,87.5,5.9,Good,0,,Good,1,Yes,47.4,4.9
+24,Female,2.8,No,87.5,5.9,Good,0,No education,Good,1,Yes,47.4,4.9
 17,Male,4.8,Yes,81.7,7.1,Fair,5,High School,Good,5,Yes,83.0,5.6
 17,Male,1.5,No,86.2,5.7,Fair,1,High School,Good,10,No,54.2,5.3
 19,Male,3.7,No,100.0,6.5,Good,6,Bachelor,Average,8,No,82.5,5.699999999999999
@@ -538,7 +538,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Male,2.0,No,81.3,6.7,Good,1,Bachelor,Good,7,Yes,40.4,5.0
 23,Female,2.5,Yes,80.0,3.6,Good,5,Bachelor,Average,8,No,58.9,3.1
 21,Male,4.3,No,83.3,4.3,Poor,2,High School,Poor,6,No,67.5,6.0
-18,Male,3.8,No,100.0,7.2,Good,4,,Good,6,Yes,81.0,5.699999999999999
+18,Male,3.8,No,100.0,7.2,Good,4,No education,Good,6,Yes,81.0,5.699999999999999
 23,Female,4.0,No,83.2,7.7,Good,3,Bachelor,Average,6,Yes,74.7,6.0
 18,Female,4.2,Yes,84.8,5.4,Good,2,High School,Good,5,No,67.4,7.199999999999999
 19,Male,4.5,No,80.2,6.2,Good,1,Bachelor,Poor,8,No,72.2,5.7
@@ -553,22 +553,22 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Female,3.3,Yes,89.3,4.8,Poor,1,High School,Average,5,No,67.0,4.7
 21,Female,0.2,Yes,77.9,7.0,Good,5,Master,Good,4,Yes,31.5,5.2
 20,Female,4.8,No,81.2,8.1,Good,5,High School,Average,1,No,88.0,0.8
-17,Other,2.7,No,80.9,6.6,Fair,0,,Poor,6,No,53.4,5.8
-24,Male,3.4,No,95.2,5.4,Good,3,,Average,10,Yes,83.4,1.6
+17,Other,2.7,No,80.9,6.6,Fair,0,No education,Poor,6,No,53.4,5.8
+24,Male,3.4,No,95.2,5.4,Good,3,No education,Average,10,Yes,83.4,1.6
 24,Female,4.0,No,81.2,7.6,Fair,6,Bachelor,Poor,6,No,79.0,8.7
 22,Male,3.8,No,100.0,7.3,Poor,1,Bachelor,Poor,7,Yes,69.9,7.9
 24,Male,4.6,No,89.3,5.3,Fair,0,High School,Average,1,Yes,60.1,3.4000000000000004
 22,Female,2.8,No,72.2,7.0,Fair,6,High School,Good,4,No,70.3,4.3
 20,Female,4.3,Yes,83.7,7.7,Fair,3,High School,Good,9,No,79.8,7.699999999999999
 19,Other,3.1,No,78.5,7.9,Good,0,Bachelor,Good,10,Yes,66.6,5.6
-23,Female,4.6,No,63.1,6.4,Good,3,,Average,6,No,91.7,1.2
+23,Female,4.6,No,63.1,6.4,Good,3,No education,Average,6,No,91.7,1.2
 23,Male,4.4,Yes,100.0,6.1,Fair,3,Master,Average,2,No,70.1,4.3
 20,Male,2.1,No,92.0,8.0,Good,3,High School,Average,4,No,61.5,6.0
 18,Female,5.1,No,90.3,5.0,Poor,0,Master,Good,6,No,79.3,4.9
 18,Male,2.7,No,86.7,7.0,Poor,5,High School,Good,4,Yes,63.9,6.0
 24,Male,4.7,No,71.2,4.9,Good,3,Bachelor,Poor,10,Yes,93.1,7.1
 23,Male,4.1,No,80.2,7.8,Poor,5,High School,Poor,7,Yes,89.8,2.1
-23,Male,6.3,No,93.4,6.2,Fair,6,,Good,3,Yes,100.0,1.9
+23,Male,6.3,No,93.4,6.2,Fair,6,No education,Good,3,Yes,100.0,1.9
 22,Male,3.2,No,74.5,8.0,Good,6,Master,Good,6,Yes,61.8,6.7
 19,Male,3.0,No,59.7,7.1,Fair,1,Master,Good,4,Yes,51.5,5.4
 17,Male,3.5,No,82.7,5.0,Good,4,High School,Good,3,No,60.4,3.2
@@ -601,8 +601,8 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Male,5.5,No,100.0,7.5,Fair,0,High School,Poor,6,No,77.3,5.0
 21,Male,6.0,No,74.4,5.4,Fair,0,High School,Average,8,Yes,90.2,5.5
 24,Other,4.6,No,81.5,7.3,Fair,0,High School,Good,5,Yes,80.2,3.3
-20,Female,3.6,No,72.7,5.9,Poor,2,,Average,10,Yes,72.9,4.5
-22,Female,1.1,No,94.5,5.3,Fair,3,,Average,3,No,35.8,4.4
+20,Female,3.6,No,72.7,5.9,Poor,2,No education,Average,10,Yes,72.9,4.5
+22,Female,1.1,No,94.5,5.3,Fair,3,No education,Average,3,No,35.8,4.4
 23,Other,3.1,No,100.0,6.8,Poor,4,Master,Good,8,Yes,72.8,4.8
 19,Male,2.2,No,100.0,3.3,Good,6,Bachelor,Good,8,No,67.6,5.3
 23,Male,6.8,No,97.2,4.4,Good,1,Bachelor,Poor,4,No,93.1,3.2
@@ -619,7 +619,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,3.4,No,91.4,5.6,Fair,5,High School,Poor,5,No,71.3,2.6
 23,Male,2.9,No,84.4,6.2,Good,0,Bachelor,Average,1,Yes,61.4,2.4
 19,Male,2.5,No,70.5,4.8,Good,1,High School,Good,4,No,45.1,4.8
-20,Female,1.4,No,85.8,6.4,Fair,2,,Average,1,No,39.8,5.1
+20,Female,1.4,No,85.8,6.4,Fair,2,No education,Average,1,No,39.8,5.1
 18,Female,3.4,No,95.5,7.8,Good,0,Master,Good,2,No,70.7,3.0999999999999996
 23,Female,1.2,No,84.7,7.3,Fair,0,Bachelor,Average,2,Yes,35.6,1.8
 18,Female,4.6,No,92.8,8.2,Good,4,Master,Good,4,No,93.0,1.7
@@ -636,7 +636,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 18,Female,3.8,No,85.0,6.3,Poor,5,High School,Average,8,No,76.8,4.3
 18,Male,2.4,No,79.7,4.9,Poor,1,Master,Poor,3,No,45.8,2.9
 17,Female,3.0,No,81.6,9.1,Fair,2,Bachelor,Average,1,Yes,58.4,4.800000000000001
-23,Female,2.3,No,81.3,5.9,Fair,6,,Good,1,Yes,70.3,2.4
+23,Female,2.3,No,81.3,5.9,Fair,6,No education,Good,1,Yes,70.3,2.4
 18,Female,5.1,Yes,75.2,6.7,Fair,1,Master,Good,10,Yes,99.4,2.8
 24,Female,3.5,No,65.4,7.9,Poor,3,High School,Good,2,No,62.9,3.5999999999999996
 22,Female,6.4,Yes,78.3,5.8,Good,0,High School,Average,7,No,98.0,3.0
@@ -644,9 +644,9 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,2.4,No,71.5,6.8,Fair,5,High School,Good,2,Yes,50.4,3.4
 17,Female,1.2,No,85.2,4.3,Fair,6,High School,Good,4,No,49.4,3.3
 24,Male,0.8,No,100.0,6.2,Fair,3,Bachelor,Average,2,Yes,35.3,3.2
-21,Female,1.1,Yes,95.2,6.8,Good,2,,Average,1,Yes,46.3,2.8
+21,Female,1.1,Yes,95.2,6.8,Good,2,No education,Average,1,Yes,46.3,2.8
 21,Female,3.9,No,100.0,6.2,Poor,2,High School,Average,3,No,68.4,4.2
-17,Female,4.3,No,88.9,4.6,Poor,6,,Average,4,No,84.2,1.5
+17,Female,4.3,No,88.9,4.6,Poor,6,No education,Average,4,No,84.2,1.5
 24,Female,1.1,No,96.7,8.4,Good,3,High School,Good,10,Yes,54.6,6.1
 21,Female,4.8,No,77.8,6.6,Fair,6,Bachelor,Average,5,No,88.0,4.5
 23,Female,2.8,No,78.6,8.2,Fair,0,Bachelor,Good,5,No,61.5,3.0999999999999996
@@ -661,11 +661,11 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 18,Male,2.0,No,67.6,8.1,Good,4,Bachelor,Average,10,Yes,73.6,0.7
 24,Female,3.3,No,89.1,5.9,Good,2,High School,Good,9,Yes,79.5,3.6
 19,Male,3.6,No,82.2,5.8,Good,3,Bachelor,Poor,10,No,62.5,5.6
-21,Male,3.2,No,86.1,4.4,Fair,4,,Average,8,Yes,76.3,4.2
+21,Male,3.2,No,86.1,4.4,Fair,4,No education,Average,8,Yes,76.3,4.2
 22,Female,2.5,No,89.6,8.6,Fair,4,High School,Good,6,No,75.6,2.8
 17,Male,3.8,No,83.1,5.0,Fair,4,High School,Good,4,No,64.4,3.5
 21,Female,4.2,No,84.0,6.6,Good,2,High School,Average,9,No,75.3,7.6
-22,Female,1.9,Yes,82.9,7.6,Good,2,,Average,9,Yes,50.4,4.5
+22,Female,1.9,Yes,82.9,7.6,Good,2,No education,Average,9,Yes,50.4,4.5
 20,Female,5.6,No,94.7,7.0,Fair,6,High School,Average,10,Yes,100.0,4.699999999999999
 21,Male,3.4,No,89.2,6.4,Good,2,Bachelor,Good,10,No,76.4,6.7
 23,Male,3.5,No,87.2,4.5,Good,1,Bachelor,Good,9,No,69.9,4.4
@@ -676,19 +676,19 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Female,2.6,No,91.6,7.3,Poor,2,High School,Poor,6,No,63.6,2.9000000000000004
 21,Female,4.0,No,100.0,7.7,Fair,1,Bachelor,Good,6,No,82.2,3.5
 20,Female,1.8,No,95.4,5.0,Good,4,Bachelor,Good,5,No,37.4,8.0
-24,Male,3.7,No,85.9,9.1,Good,3,,Good,5,No,73.8,6.7
+24,Male,3.7,No,85.9,9.1,Good,3,No education,Good,5,No,73.8,6.7
 18,Female,3.5,Yes,79.9,7.4,Good,0,Master,Good,2,Yes,53.4,5.9
 18,Female,3.2,No,59.5,6.5,Good,2,Bachelor,Good,7,No,64.2,3.8
-24,Other,3.3,No,83.3,7.8,Poor,6,,Good,4,No,70.4,4.0
-21,Male,0.7,No,81.7,9.3,Poor,6,,Average,3,No,51.5,1.7
-23,Female,2.7,No,88.9,4.8,Poor,4,,Average,8,No,53.4,7.199999999999999
+24,Other,3.3,No,83.3,7.8,Poor,6,No education,Good,4,No,70.4,4.0
+21,Male,0.7,No,81.7,9.3,Poor,6,No education,Average,3,No,51.5,1.7
+23,Female,2.7,No,88.9,4.8,Poor,4,No education,Average,8,No,53.4,7.199999999999999
 20,Female,3.6,Yes,83.5,6.2,Fair,4,High School,Good,4,No,77.2,1.4000000000000001
 17,Male,3.7,No,81.8,3.6,Fair,3,Bachelor,Good,4,Yes,59.8,6.4
 22,Female,2.0,No,67.2,6.7,Poor,6,Bachelor,Average,8,No,55.4,3.9000000000000004
 22,Female,5.4,Yes,75.6,6.9,Fair,0,High School,Average,1,No,69.9,4.8
 21,Male,2.2,Yes,89.8,6.5,Poor,5,Master,Average,9,No,71.6,2.8
 23,Male,5.0,No,100.0,5.7,Good,6,High School,Poor,7,No,92.9,3.4000000000000004
-18,Female,4.1,No,84.0,4.0,Fair,6,,Good,2,No,72.4,2.1
+18,Female,4.1,No,84.0,4.0,Fair,6,No education,Good,2,No,72.4,2.1
 18,Male,2.5,Yes,88.3,6.9,Fair,1,High School,Average,6,No,70.5,3.0
 22,Female,6.2,No,94.5,8.2,Fair,5,Bachelor,Good,8,No,100.0,5.8
 21,Male,1.7,No,76.9,5.8,Good,4,High School,Average,5,Yes,37.4,4.4
@@ -707,7 +707,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Female,1.0,No,79.4,8.7,Fair,1,Bachelor,Average,8,Yes,52.6,3.1
 20,Female,5.0,No,56.7,5.5,Poor,2,Master,Average,4,No,83.6,3.7
 24,Male,5.2,No,98.6,5.7,Good,4,Bachelor,Average,6,No,92.0,5.0
-24,Male,1.9,No,92.6,5.3,Good,4,,Poor,6,No,53.2,5.1
+24,Male,1.9,No,92.6,5.3,Good,4,No education,Poor,6,No,53.2,5.1
 24,Other,2.9,No,67.6,8.7,Poor,4,High School,Good,5,Yes,56.4,6.9
 23,Male,1.8,No,78.9,7.2,Fair,5,High School,Good,1,No,58.1,2.0
 18,Male,3.2,No,100.0,5.4,Good,4,High School,Average,7,No,70.9,5.1
@@ -727,7 +727,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Female,3.9,No,75.8,5.7,Good,2,Bachelor,Average,2,No,64.0,4.3
 19,Male,2.3,Yes,85.1,7.5,Fair,6,Bachelor,Poor,7,Yes,77.4,1.9
 19,Male,4.1,No,70.2,3.3,Good,2,High School,Good,7,No,57.4,5.800000000000001
-21,Other,2.8,No,80.1,5.6,Fair,2,,Average,3,Yes,59.9,4.0
+21,Other,2.8,No,80.1,5.6,Fair,2,No education,Average,3,Yes,59.9,4.0
 20,Male,3.5,No,70.6,5.4,Fair,5,High School,Good,7,No,66.7,5.7
 19,Female,4.3,Yes,91.9,5.0,Good,3,Bachelor,Good,1,No,58.4,5.300000000000001
 17,Male,3.5,No,92.2,6.2,Good,4,Master,Poor,1,No,63.6,2.4
@@ -739,7 +739,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Male,5.9,Yes,100.0,6.6,Fair,0,High School,Average,1,Yes,72.7,7.199999999999999
 21,Other,4.3,No,71.8,7.6,Fair,2,High School,Good,5,Yes,76.0,4.5
 20,Male,3.1,No,85.2,7.4,Poor,6,Bachelor,Good,9,Yes,74.1,5.0
-23,Female,4.5,Yes,86.8,6.5,Poor,3,,Average,4,Yes,79.0,3.5999999999999996
+23,Female,4.5,Yes,86.8,6.5,Poor,3,No education,Average,4,Yes,79.0,3.5999999999999996
 22,Female,3.0,No,98.5,5.4,Poor,1,Bachelor,Good,3,No,51.3,3.7
 18,Female,5.3,No,88.6,5.7,Fair,4,Bachelor,Average,1,Yes,71.0,5.4
 21,Female,4.1,Yes,80.0,5.8,Good,6,High School,Good,2,Yes,76.4,3.7
@@ -759,13 +759,13 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 19,Female,2.6,No,74.5,7.1,Fair,0,Master,Good,3,Yes,44.5,5.699999999999999
 17,Male,3.2,No,100.0,7.1,Fair,1,High School,Good,10,Yes,75.4,5.4
 23,Female,2.8,Yes,90.2,5.2,Fair,1,Bachelor,Average,6,Yes,54.9,5.8
-20,Male,0.5,Yes,81.0,7.7,Good,4,,Average,3,Yes,30.2,5.4
+20,Male,0.5,Yes,81.0,7.7,Good,4,No education,Average,3,Yes,30.2,5.4
 18,Female,4.6,No,77.5,7.9,Good,0,Bachelor,Good,1,Yes,71.8,5.4
 21,Male,1.9,No,84.0,5.1,Fair,4,High School,Poor,4,No,51.8,3.6999999999999997
 18,Male,3.9,Yes,91.1,5.5,Good,3,High School,Poor,1,Yes,59.5,2.4
 21,Male,6.6,No,84.7,7.9,Fair,1,Master,Poor,2,No,96.6,4.1
 19,Male,2.1,Yes,82.8,6.3,Poor,1,Master,Average,3,No,44.1,4.199999999999999
-21,Male,0.0,No,85.6,3.8,Poor,3,,Average,8,No,30.5,5.3
+21,Male,0.0,No,85.6,3.8,Poor,3,No education,Average,8,No,30.5,5.3
 24,Male,3.1,No,79.0,4.8,Poor,0,Bachelor,Average,10,No,63.7,5.1
 20,Female,5.2,No,81.6,6.2,Fair,1,High School,Poor,4,No,74.0,4.9
 17,Male,6.4,No,64.1,5.1,Fair,6,High School,Good,4,No,98.8,5.7
@@ -781,10 +781,10 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 19,Female,3.6,Yes,80.7,7.1,Good,6,Bachelor,Average,10,No,85.6,3.0
 17,Female,4.0,No,89.5,7.8,Poor,0,High School,Average,10,Yes,89.4,5.9
 19,Female,2.9,No,82.4,6.4,Fair,4,Bachelor,Good,6,No,66.9,5.1
-24,Female,3.9,Yes,90.6,8.6,Fair,0,,Good,3,No,56.0,4.4
+24,Female,3.9,Yes,90.6,8.6,Fair,0,No education,Good,3,No,56.0,4.4
 20,Male,3.0,No,66.0,7.5,Good,2,High School,Good,9,No,77.9,2.3
 18,Male,4.4,No,80.7,7.2,Fair,5,High School,Good,10,No,91.3,4.2
-17,Female,2.9,No,100.0,7.8,Poor,3,,Average,8,No,68.4,3.9
+17,Female,2.9,No,100.0,7.8,Poor,3,No education,Average,8,No,68.4,3.9
 23,Male,4.1,No,77.3,6.9,Good,2,Bachelor,Average,9,No,85.3,5.0
 24,Male,3.5,No,79.0,3.5,Fair,3,Bachelor,Good,5,Yes,64.4,2.3
 24,Male,5.2,No,80.5,5.9,Fair,6,Master,Poor,3,No,82.8,3.8
@@ -794,14 +794,14 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 21,Female,2.1,No,86.4,5.2,Fair,1,Bachelor,Poor,9,Yes,50.1,7.300000000000001
 20,Female,2.5,No,84.5,8.6,Fair,3,Master,Good,3,No,49.4,6.699999999999999
 17,Female,2.6,No,83.6,8.5,Poor,5,Bachelor,Average,7,No,80.3,2.5999999999999996
-23,Male,5.6,No,85.4,5.4,Good,5,,Poor,6,Yes,89.7,5.699999999999999
+23,Male,5.6,No,85.4,5.4,Good,5,No education,Poor,6,Yes,89.7,5.699999999999999
 21,Male,0.3,No,95.2,6.7,Poor,3,Bachelor,Average,4,Yes,33.6,5.3
 23,Male,8.2,No,83.1,5.7,Poor,2,Master,Good,5,Yes,100.0,3.7
 17,Female,5.1,No,79.3,7.2,Good,1,Bachelor,Average,10,No,90.6,6.9
 19,Female,3.8,No,82.2,7.1,Good,2,Bachelor,Average,2,Yes,66.3,3.2
 17,Male,3.4,No,90.8,7.5,Good,4,Bachelor,Poor,7,Yes,86.1,2.5
 22,Female,3.9,No,99.1,6.9,Fair,1,Master,Good,4,No,65.5,5.7
-17,Male,4.3,No,78.7,10.0,Fair,4,,Good,2,No,82.9,3.8
+17,Male,4.3,No,78.7,10.0,Fair,4,No education,Good,2,No,82.9,3.8
 17,Female,4.5,No,86.0,5.3,Good,0,Bachelor,Good,6,Yes,76.3,3.8
 22,Female,4.3,Yes,88.4,4.4,Good,2,High School,Average,2,Yes,59.0,5.1
 20,Female,3.6,No,75.1,6.0,Fair,3,Bachelor,Average,10,Yes,76.1,4.4
@@ -823,19 +823,19 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Male,1.4,No,81.7,7.1,Good,3,Master,Poor,4,No,35.4,7.6
 22,Female,2.6,No,79.8,9.0,Poor,0,Bachelor,Good,2,No,49.1,8.7
 23,Male,4.8,No,93.5,6.7,Fair,4,High School,Good,1,No,85.4,3.4
-24,Other,4.9,No,85.3,7.5,Poor,0,,Average,4,No,83.9,2.6
+24,Other,4.9,No,85.3,7.5,Poor,0,No education,Average,4,No,83.9,2.6
 20,Male,4.3,Yes,90.2,6.3,Good,0,High School,Average,7,No,90.4,1.3
 19,Male,4.6,No,75.2,6.9,Poor,4,High School,Good,4,No,87.8,4.8
 18,Female,4.3,No,71.0,8.5,Good,5,Bachelor,Average,9,No,87.5,3.8
 23,Female,2.5,No,86.1,4.0,Fair,6,Bachelor,Good,8,No,58.2,5.0
-24,Female,4.1,No,81.8,7.0,Poor,3,,Good,8,Yes,73.2,6.300000000000001
+24,Female,4.1,No,81.8,7.0,Poor,3,No education,Good,8,Yes,73.2,6.300000000000001
 21,Female,4.7,No,91.3,9.1,Good,5,Bachelor,Good,5,No,83.5,4.3
 21,Female,4.6,No,84.2,6.8,Poor,5,High School,Average,1,Yes,77.6,4.5
 19,Male,5.3,Yes,87.1,8.5,Fair,5,High School,Average,9,Yes,98.4,2.6
 20,Other,4.6,No,68.8,5.7,Poor,6,Bachelor,Good,2,No,78.5,4.800000000000001
 17,Other,4.0,Yes,100.0,6.5,Fair,2,High School,Poor,6,Yes,81.1,1.4
 20,Female,5.1,No,83.4,6.5,Fair,6,High School,Average,10,No,100.0,4.4
-19,Male,3.5,No,92.0,3.8,Fair,5,,Poor,5,Yes,58.7,2.8
+19,Male,3.5,No,92.0,3.8,Fair,5,No education,Poor,5,Yes,58.7,2.8
 21,Female,2.2,No,76.6,5.1,Poor,2,High School,Poor,10,No,62.6,2.4
 20,Male,3.3,No,88.1,5.2,Fair,4,Bachelor,Average,8,Yes,60.3,6.5
 21,Male,2.4,No,72.0,7.5,Good,6,Master,Average,3,No,63.9,4.5
@@ -871,7 +871,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Male,2.8,Yes,86.4,6.3,Fair,4,Master,Average,10,No,74.6,5.2
 21,Other,4.7,Yes,62.0,5.4,Good,1,High School,Good,3,No,67.5,2.7
 24,Male,2.0,Yes,81.4,7.3,Poor,3,Master,Good,8,Yes,66.5,1.9
-18,Female,4.2,No,100.0,6.0,Fair,3,,Average,4,No,78.4,3.5
+18,Female,4.2,No,100.0,6.0,Fair,3,No education,Average,4,No,78.4,3.5
 17,Female,4.3,No,82.7,4.9,Fair,1,High School,Good,7,No,84.9,1.3
 18,Male,5.1,No,96.0,7.0,Fair,0,Master,Average,10,No,96.6,3.5
 19,Female,7.6,No,99.4,4.8,Poor,0,High School,Good,3,No,100.0,5.9
@@ -886,7 +886,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 24,Female,2.3,No,85.3,8.9,Good,0,Master,Good,3,No,40.9,6.199999999999999
 21,Male,5.2,No,87.7,8.7,Fair,6,High School,Poor,8,No,100.0,1.3
 17,Female,3.5,No,73.9,5.5,Fair,4,High School,Good,2,Yes,65.6,6.5
-22,Male,3.5,No,97.0,7.2,Good,5,,Poor,9,No,75.9,7.0
+22,Male,3.5,No,97.0,7.2,Good,5,No education,Poor,9,No,75.9,7.0
 20,Other,3.0,Yes,79.0,7.4,Fair,4,Bachelor,Good,8,Yes,69.8,4.7
 17,Male,3.7,Yes,68.3,5.8,Fair,0,High School,Good,8,No,66.6,6.1
 23,Male,4.7,Yes,83.9,4.7,Fair,5,High School,Average,3,No,84.5,1.9
@@ -898,7 +898,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Male,2.8,Yes,74.0,5.1,Good,6,High School,Average,5,No,58.4,5.2
 20,Male,4.8,No,93.2,6.6,Good,1,High School,Good,1,Yes,70.8,5.0
 23,Female,3.9,No,86.8,7.0,Fair,1,Master,Average,10,No,75.7,4.0
-19,Female,3.8,No,80.8,5.1,Poor,0,,Average,1,No,55.7,3.5
+19,Female,3.8,No,80.8,5.1,Poor,0,No education,Average,1,No,55.7,3.5
 21,Male,4.8,No,66.0,7.6,Poor,0,Master,Average,6,Yes,82.1,5.5
 20,Male,3.3,No,99.4,4.4,Fair,6,High School,Good,3,Yes,71.4,4.2
 22,Male,4.1,No,72.7,5.8,Fair,3,Master,Good,3,No,66.7,3.2
@@ -909,8 +909,8 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 19,Female,3.3,No,63.8,5.5,Fair,1,High School,Average,3,No,55.4,4.6
 23,Female,5.6,Yes,92.2,9.4,Fair,4,Bachelor,Good,8,No,100.0,3.3
 22,Female,4.9,No,79.5,7.0,Fair,5,Bachelor,Average,1,No,71.8,6.3
-19,Male,4.9,No,100.0,6.6,Fair,1,,Average,10,No,89.2,3.4
-21,Male,5.4,No,75.1,7.1,Fair,2,,Good,4,No,83.9,5.5
+19,Male,4.9,No,100.0,6.6,Fair,1,No education,Average,10,No,89.2,3.4
+21,Male,5.4,No,75.1,7.1,Fair,2,No education,Good,4,No,83.9,5.5
 21,Male,3.6,No,75.8,9.5,Poor,6,High School,Average,9,No,89.1,2.8000000000000003
 18,Male,3.8,Yes,79.3,5.3,Good,3,High School,Good,4,No,53.5,6.1
 20,Female,2.6,Yes,87.4,5.2,Good,6,Bachelor,Poor,10,No,72.9,2.9000000000000004
@@ -919,12 +919,12 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 20,Male,5.3,No,75.2,4.4,Good,5,High School,Good,3,No,77.2,3.2
 20,Male,3.3,Yes,71.2,6.5,Poor,5,Bachelor,Average,7,No,71.9,4.199999999999999
 24,Female,2.8,No,67.0,8.5,Good,3,High School,Good,7,Yes,74.7,3.7
-21,Male,3.5,Yes,62.8,6.7,Good,3,,Good,10,No,74.5,6.4
-23,Female,4.4,No,79.8,6.1,Fair,6,,Average,3,No,85.4,3.7
+21,Male,3.5,Yes,62.8,6.7,Good,3,No education,Good,10,No,74.5,6.4
+23,Female,4.4,No,79.8,6.1,Fair,6,No education,Average,3,No,85.4,3.7
 17,Male,1.3,No,82.0,5.8,Poor,5,Master,Average,2,Yes,44.3,3.7
 23,Male,0.1,No,78.7,7.6,Poor,5,High School,Good,9,No,53.4,1.2
 17,Other,2.7,Yes,97.4,5.5,Poor,5,Bachelor,Average,1,Yes,57.4,5.5
-19,Other,1.7,Yes,97.3,8.7,Good,1,,Good,7,No,53.6,4.5
+19,Other,1.7,Yes,97.3,8.7,Good,1,No education,Good,7,No,53.6,4.5
 21,Male,2.7,No,81.7,8.8,Fair,5,High School,Good,4,Yes,58.8,5.1
 20,Female,3.3,No,67.1,6.8,Good,0,Bachelor,Good,2,No,43.5,5.9
 22,Female,2.8,No,79.3,6.5,Good,5,High School,Average,2,No,65.6,3.3000000000000003
@@ -938,13 +938,13 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 22,Male,4.5,No,88.6,4.9,Good,5,Bachelor,Average,2,Yes,66.1,6.3
 21,Female,1.9,No,75.9,6.0,Good,6,Bachelor,Good,5,No,41.7,4.4
 22,Male,1.2,No,97.7,4.9,Fair,1,High School,Poor,1,No,28.0,4.0
-18,Female,4.7,No,75.2,5.4,Good,3,,Good,6,No,71.0,5.1
+18,Female,4.7,No,75.2,5.4,Good,3,No education,Good,6,No,71.0,5.1
 20,Other,4.1,Yes,68.8,7.2,Good,0,Master,Average,4,No,67.5,1.8
 21,Male,2.1,No,88.8,5.6,Fair,6,High School,Good,6,No,63.4,4.4
 24,Female,2.2,No,76.8,6.1,Poor,3,High School,Good,7,No,50.2,7.8
 21,Male,5.2,No,88.2,4.5,Good,2,High School,Poor,3,No,72.0,6.6
 21,Female,1.7,No,61.0,6.7,Fair,5,Bachelor,Good,8,Yes,67.9,3.3
-23,Male,6.0,Yes,98.9,6.4,Poor,0,,Average,7,No,100.0,5.0
+23,Male,6.0,Yes,98.9,6.4,Poor,0,No education,Average,7,No,100.0,5.0
 21,Female,2.1,No,91.7,5.6,Fair,3,Bachelor,Good,1,Yes,55.0,2.4
 24,Female,4.5,Yes,70.0,6.3,Good,0,High School,Good,6,Yes,59.9,6.5
 22,Female,3.0,No,70.2,6.7,Fair,2,Master,Good,7,No,63.2,4.6
@@ -966,7 +966,7 @@ age,gender,study_hours_per_day,part_time_job,attendance_percentage,sleep_hours,d
 23,Other,3.5,No,84.3,7.6,Good,5,High School,Poor,10,Yes,89.1,4.4
 17,Male,4.3,No,59.8,6.6,Fair,5,Master,Average,6,Yes,77.3,4.0
 21,Other,1.7,No,83.5,7.0,Poor,1,High School,Good,8,Yes,56.4,1.0
-22,Male,5.2,No,95.6,5.9,Fair,0,,Good,6,No,76.1,7.8999999999999995
+22,Male,5.2,No,95.6,5.9,Fair,0,No education,Good,6,No,76.1,7.8999999999999995
 22,Female,4.6,No,76.1,6.1,Good,3,High School,Average,4,No,74.6,3.6
 19,Female,4.6,Yes,81.1,6.8,Fair,5,Bachelor,Average,4,No,83.0,5.6
 24,Female,4.2,No,83.2,5.1,Fair,3,Bachelor,Average,9,Yes,85.9,3.9
