@@ -18,7 +18,7 @@ We used unsupervised learning (K-Means) clustering and supervised learning (regr
 
 We first explored the data with exploratory data analysis through data visualizations. We determined the prevalence of outliers, handled missing data, preprocessed the data, and prepared it for machine learning using data transformation techniques such as standardization in a pipeline. We also engineered new features that is used by the model.
 
-We then used the data provided in several machine learning algorithms. Initially, the data is clustered using <b>K-means</b> where we determined the appropriate number of clusters using both <b>Elbow Method</b> and <b>Silhouette Score</b>. With this, we were able to create per cluster models that can be used for <b>Mixture of Experts (MoE) approach</b>. We benchmarked the results for the per cluster models and one global model. In visualizing the K-means clusters, we used <b>principal component analysis</b> (PCA).
+We then used the data provided in several machine learning algorithms. Initially, the data is clustered using <b>K-means</b> where we determined the appropriate number of clusters using both <b>Elbow Method</b> and <b>Silhouette Score</b>. 
 
 In training the supervised learning models, we used an <b>90-10</b> dataset split ratio. Moreover, we used <b>K-fold cross validation</b> for hyperparameter tuning and a <b>hold-out test set</b> that is purely isolated from training. The regression models we used are:
 - linear regression
