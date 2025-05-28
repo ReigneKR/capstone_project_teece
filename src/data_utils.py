@@ -75,4 +75,5 @@ def preprocessor(data: pd.DataFrame):
     ])
 
     X = preprocessor.fit_transform(data)
-    return X
+    feature_names = preprocessor.get_feature_names_out()
+    return X, feature_names
